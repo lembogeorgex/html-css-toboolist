@@ -42,20 +42,20 @@ li {
 
 /* Main */
 .container{
-    width: 1080px;
-    height: 920px;
+    margin-left: 180px;
 }
 
 main{
+    width: 1080px;
+    height: 920px;
     background-color: lightgray;
 }
 
 .todolist{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     background-color: white;
     border-radius: 8px;
-    padding-right: 25px;
 }
 
 
@@ -73,6 +73,7 @@ main{
 .section{
     color: gray;
     border: 1px solid black;
+
 }
 
 .separator{
