@@ -33,6 +33,13 @@ header h1{
     vertical-align: middle;
 }
 
+
+/* Generic */
+li {
+    margin: 20px;
+}
+
+
 /* Main */
 .container{
     width: 1080px;
@@ -78,10 +85,13 @@ main{
     padding: 20px;
 }
 
+
 .list{
     list-style-type: none ;
 }
 
+
+/* Status */
 .valid{
     color: rgba(0, 216, 54, 0.996);
     border: 1px solid green;
@@ -101,6 +111,8 @@ main{
 .unvalid::before{
     content: "\2717";
 }
+
+/* Tags */
 .tag{
     border: 1px solid;
     border-radius: 10px;
@@ -118,6 +130,16 @@ main{
 .mobile{
     background-color: orange;
 }
+
+.website{
+    background-color: pink;
+}
+
+
+.sales{
+    background-color: olive;
+}
+
 .q1-goals{
     border: 1px solid;
     border-radius: 10px;
@@ -126,6 +148,3 @@ main{
     color: white;
 }
 
-li {
-    margin: 20px;
-}
