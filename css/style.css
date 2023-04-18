@@ -3,4 +3,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Generics */
+body{
+    max-width: 1080px;
+}
+
+/* Header */
+#logo{
+    width: 1080px;
+    height: 50px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+header h1{
+    line-height: 50px;
+    padding-left: 50px;
 }
