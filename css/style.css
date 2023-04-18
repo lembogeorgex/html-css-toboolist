@@ -16,6 +16,8 @@ body{
 
 header{
     height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .logo{
     width: 50px;
@@ -24,10 +26,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     vertical-align: middle;
-    display: inline-block
+    display: inline-block;
 }
 header h1{
     display: inline-block;
     vertical-align: middle;
-
 }
