@@ -9,15 +9,48 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Header Banner -->
     <header>
       <div class="logo"></div>
       <h1>Toboolist</h1>
     </header>
-    <div class="container">
-      <div class="todolist">
-        <button class="button task">Add Task</button>
-        <button class="button section">Add Section</button>
+    <main>
+      <div class="container">
+        <div class="todolist">
+          <!-- Button -->
+          <button class="button task">Add Task</button>
+          <button class="button section">Add Section</button>
+          <div class="separator"></div>
+          <div class="todolistbody">
+            <div class="quarterly">
+              <h3>&#9660; New Task</h3>
+              <ol class="list quarterly">
+                <li class="content">
+                  <span class="valid">Quarterly Newsletter</span>
+                  <span class="editorial">Editorial</span>
+                </li>
+              </ol>
+            </div>
+
+            <div class="today">
+              <h3>&#9660; Today</h3>
+              <ol class="list today">
+                <li class="content">
+                  <span class="valid"></span>Recruiting blog Post
+                  <span class="tag editorial">Editorial</span>
+                  <br />
+                  <span class="valid"></span>Mobile app Launch
+                  <span class="tag q1-goals">Q1-goals</span><br />
+                  <span class="unvalid"></span>Interview John H.
+                  <span class="tag recruiting">Q1-goals</span><br />
+                  <span class="valid"></span>Summit update to mobile storefronts
+                  <span class="tag mobile">mobile</span><br />
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
