@@ -87,29 +87,56 @@ content: "\25BC";
 
 .listitle{
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
+
+.task{
+    line-height: 50px;
+}
 /* Tags */
 
+.tags{
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
 .priorities{
-    
+    background-color: var(--orange)
 }
 .visit{
-
+background-color: var(--junglegreen);
 }
 
 .food{
-
+background-color: var(--green);
 }
 
-.buy{
 
-}
-
-.fun{
-
-}
 
 .extra{
+background-color: var(--purple);
+}
 
+
+/* Validation */
+
+.stat{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    
+    text-align: center;
+    border-radius: 10px;
+}
+.valid{
+    border: 1px solid green;
+    color: green;
+    border-color: currentColor ;
+}
+
+.unvalid{
+    border: 1px solid red;
+    border-color: currentColor;
+    color: red;
 }
