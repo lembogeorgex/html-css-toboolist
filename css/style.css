@@ -7,4 +7,40 @@
 }
 
 
+/* Color Palette
+Blue: #1E90FF
+Cyan: #44ABEA
+Purple: #9C72E4
+Green: #7ACFC6
+Orange: #F29E33
+Rose: #D863A1
+Junglegreen: #B0C926
+*/
 
+/* Generics */
+body{
+    background-color: #F6F8F9;
+}
+
+/* Utilities */
+:root{
+    --blue:#1E90FF;
+    --cyan:#44ABEA;
+    --purple:#9C72E4;
+    --green:#7ACFC6;
+    --orange:#F29E33;
+    --rose:#D863A1;
+    --junglegreen:#B0C926;
+}
+
+/* Header */
+header img , h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header{
+    background-color: white;
+    padding:15px;
+
+}
