@@ -59,18 +59,57 @@ header{
 
 }
 
-.todolist{
+/* List  */
+.todolist-container{
     width: 50%;
     margin: 50px auto;
     background-color: white;
 }
     
 .listhead{
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid lightgray;
     padding: 10px 25px;
     padding-bottom: 10px;
 }
 
 .listbody{
     padding: 15px 35px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.listitle::before{
+content: "\25BC";
+}
+
+.listitle{
+    padding-bottom: 20px;
+}
+
+/* Tags */
+
+.priorities{
+    
+}
+.visit{
+
+}
+
+.food{
+
+}
+
+.buy{
+
+}
+
+.fun{
+
+}
+
+.extra{
+
 }
